@@ -16,7 +16,7 @@ app.use(express.json({ limit: '50mb' }));
 
 // Documented WaveSpeedAI API Configuration
 const WAVESPEED_BASE_URL = 'https://api.wavespeed.ai/api/v3';
-const MODEL_NAME = 'bytedance/seedance-2.0-mini-image-to-video-turbo';
+const MODEL_NAME = 'bytedance/seedance-2.0-mini/image-to-video-turbo';
 
 /**
  * Health check endpoint - Used by Android app to verify connection
